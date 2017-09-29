@@ -5,12 +5,12 @@ public class Veiculo {
     private final int capacidadeTanqueCombustivel;
     private int quantidadeCombustivel;
 
-    public Veiculo(final int capacidadeTanque) {
+    public Veiculo(int capacidadeTanque) {
         this.capacidadeTanqueCombustivel = capacidadeTanque;
         quantidadeCombustivel = capacidadeTanque;
     }
 
-    // isto é responsabilidade do veiculo?
+    // isto Ã© responsabilidade do veiculo?
     public void reabastecimento(){
         quantidadeCombustivel = capacidadeTanqueCombustivel;
     }
