@@ -1,5 +1,6 @@
 package lista.exercicios.ocp.violation;
 
-public enum ModoDirecao {
-    ESPORTE, PASSEIO
+public interface ModoDirecao {
+	int getPotencia();
+    int getAlturaSuspencao();
 }
